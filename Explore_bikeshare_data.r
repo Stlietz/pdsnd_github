@@ -171,3 +171,5 @@ print(length(table(trips))/length(trips))
 dim(chi)[1] + dim(ny)[1] + dim(wash)[1] == length(trips)
 
 system('python -m nbconvert Explore_bikeshare_data.ipynb')
+
+print("first change")
